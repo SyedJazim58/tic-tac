@@ -1,7 +1,7 @@
 
 let boxes = document.querySelectorAll(".box");
-let rstBtn = document.querySelector("#resetGame");
-let newGame = document.querySelector("#newGame");
+let rstBtn = document.querySelector(".resetGame");
+let newGame = document.querySelector(".newGame");
 let winMsg = document.querySelector(".win-msg");
 let msg = document.querySelector("#won");
 
