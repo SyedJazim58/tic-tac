@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .box {
-    height: 19vmin;
+    height: 18vmin;
     width: 19vmin;
     border-radius: 1rem;
     border: none;
@@ -40,16 +40,16 @@ body {
 
 }
 
-.resetGame {
+/*  .resetGame {
     padding: 1rem;
     font-size: 1rem;
     background-color: black;
     color: aliceblue;
     border-radius: 1rem;
     border: 1px solid #000;
-    margin-left: 5vmin;
+    margin-left: 5vmin; 
         
-}
+} */
 
 
 .newGame {

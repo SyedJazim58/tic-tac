@@ -1,6 +1,6 @@
 
 let boxes = document.querySelectorAll(".box");
-let rstBtn = document.querySelector(".resetGame");
+// let rstBtn = document.querySelector(".resetGame");
 let newGame = document.querySelector(".newGame");
 let winMsg = document.querySelector(".win-msg");
 let msg = document.querySelector("#won");
@@ -81,7 +81,11 @@ const checkWin =() => {
             }
         }
 
-
+        if ([...boxes].every((box) => box.innerText !== "")) {
+            console.log("Game is a draw");
+            msg.innerText = "It's a draw!";
+            winMsg.classList.remove("hide");
+        }
 
         
          
@@ -89,4 +93,4 @@ const checkWin =() => {
 };
 
 newGame.addEventListener("click", resetGame);
-rstBtn.addEventListener("click", resetGame);
+// rstBtn.addEventListener("click", resetGame);
